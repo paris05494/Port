@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.parallax-container {
+    display: flex;
+    width: 300vw; /* ปรับตามจำนวน section */
+}
+
+.uparallax, .dparallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
+}
+
+.uparallax {
+    background-image: url("https://www.freevector.com/uploads/vector/preview/13478/FreeVector-FC-Barcelona-2002.jpg");
+}
+
+.dparallax {
+    background-image: url("https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--515a8f0b-15ae-4a38-ac79-bc021775b1d5/FOTO_ESCUDO_COMUNICADO_OFICIAL.app.webp?preferwebp=true");
+}
+
+.box {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+}
